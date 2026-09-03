@@ -11,7 +11,7 @@ import dash_auth
 # ---------------------------
 # Load metadata
 # ---------------------------
-metadata = pd.read_csv("meta.csv")
+metadata = pd.read_csv("meta.csv.gz")
 group_vars = ["Sex", "long.COVID"]
 cell_types = metadata['predicted.celltype.l1'].unique()
 module_scores = ["cd8cyto_rna1", "ifnk_rna1", "tsem_rna1", "isr_rna1", "ifns_rna1", "cd8e_rna1", "tcellse_rna1"]
