@@ -4,3 +4,4 @@ pandas
 numpy
 dash-auth
 gunicorn
+pyarrow
